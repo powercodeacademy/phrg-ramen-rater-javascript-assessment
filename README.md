@@ -52,7 +52,7 @@ Do not push your changes up to Github. When you finish:
 
 1. If you haven't already, create a custom branch with `git checkout -b custom_branch`.
 2. `git add` and `git commit` your changes.
-3. From you custom branch, run `git format-patch master --stdout > your_name.patch`, replacing `your_name` with your first and last name.
+3. From you custom branch, run `git format-patch main --stdout > your_name.patch`, replacing `your_name` with your first and last name.
 4. Send the patch file to your instructor on Connect before the specified time. Remember, you can use `open .` to launch a Finder window from your current directory, and then drag your file into Connect.
 
 
