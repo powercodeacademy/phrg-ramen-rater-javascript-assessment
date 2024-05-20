@@ -34,8 +34,9 @@ And the third is where you will run commands like `git`. Write your code in `ind
 
 ## Endpoints
 
-Your app will be available at `http://127.0.0.1:8000/`
-Your base URL for your API will be: `http://localhost:3000`
+Your app will be available at `http://127.0.0.1:8000/`.
+
+Your base URL for your API will be: `http://localhost:3000`.
 
 The endpoints you may need are:
 
