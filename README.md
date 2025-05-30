@@ -20,21 +20,16 @@ Use this gif as an example of how the app should work.
 
 ## Setup
 
-You will need 3 tabs open in your terminal, the first will contain your http-server:
-
-- Run `npm install -g http-server`
-- Run `http-server -c-1 -p 8000`
-
-The second will contain your json-server:
+You will need 2 tabs open in your terminal, the first will contain your json-server:
 
 - Run `npm install -g json-server`
 - Run `json-server --watch db.json` to get the backend started
 
-And the third is where you will run commands like `git`. Write your code in `index.js` and `index.html`.
+And the second is where you will run commands like `git`. Write your code in `index.js` and `index.html`.
+
+You can open the index HTML file in your browser with `open index.html`.
 
 ## Endpoints
-
-Your app will be available at `http://127.0.0.1:8000/`.
 
 Your base URL for your API will be: `http://localhost:3000`.
 
@@ -54,7 +49,6 @@ Do not push your changes up to Github. When you finish:
 2. `git add` and `git commit` your changes.
 3. From you custom branch, run `git format-patch main --stdout > your_name.patch`, replacing `your_name` with your first and last name.
 4. Send the patch file to your instructor on Connect before the specified time. Remember, you can use `open .` to launch a Finder window from your current directory, and then drag your file into Connect.
-
 
 ## Core Deliverables
 
